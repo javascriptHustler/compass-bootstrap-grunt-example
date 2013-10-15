@@ -1,7 +1,5 @@
 module.exports = function(grunt) {
 
-  var requirejs = require('requirejs');
-
   grunt: grunt.initConfig({
 
     compass: {
