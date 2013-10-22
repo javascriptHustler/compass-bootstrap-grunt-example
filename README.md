@@ -11,25 +11,25 @@ picture holder
 Grunt is particularly useful when you want to automate tasks like the one above. Check out my Grunt config for more details.
 
 '''javascript
-grunt: grunt.initConfig({
+  grunt: grunt.initConfig({
 
-  compass: {
-    dist: {   
-      options: {
-        outputStyle: 'compressed',
-        sassDir: 'compass',
-        specify: 'compass/main.scss',
-        cssDir: 'build/css'
+    compass: {
+      dist: {   
+        options: {
+          outputStyle: 'compressed',
+          sassDir: 'compass',
+          specify: 'compass/main.scss',
+          cssDir: 'build/css'
+        }
+      }
+    },
+
+    watch: {
+      sass: {
+        files: ['compass/sass/**/*.scss', '!compass/sass/vendor/**/*.scss'],
+        tasks: ['compass:dist']
       }
     }
-  },
 
-  watch: {
-    sass: {
-      files: ['compass/sass/**/*.scss', '!compass/sass/vendor/**/*.scss'],
-      tasks: ['compass:dist']
-    }
-  }
-
-});
+  });
 '''
