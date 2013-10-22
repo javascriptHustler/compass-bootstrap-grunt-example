@@ -1,4 +1,3 @@
-compass-bootstrap-grunt-example
-===============================
+### H3 Compass Bootstrap Grunt Example
 
-Getting this setup was a pain for me. So here is my day of work accessible by a git clone. Gotta love github!
+Above you will find a boilerplate to help you establish the basic foundations of a "Nodejs" site. I have provided several technologies such as grunt which will help you quickly perform repetive tasks.
