@@ -10,7 +10,6 @@ picture holder
 
 Grunt is particularly useful when you want to automate tasks like the one above. Check out my Grunt config for more details.
 
-'''javascript
   grunt: grunt.initConfig({
 
     compass: {
@@ -32,4 +31,3 @@ Grunt is particularly useful when you want to automate tasks like the one above.
     }
 
   });
-'''
