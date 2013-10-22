@@ -32,4 +32,4 @@ grunt: grunt.initConfig({
   }
 
 });
-
+'''
