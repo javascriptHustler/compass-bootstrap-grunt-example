@@ -20,7 +20,12 @@ Now that you have cloned this repo, it's time to set up your node_modules.
   > npm install // run from project dir
   ```
   
-At this point, all dependecies are being downloaded and installed for your project.
+At this point, all dependecies are being downloaded and installed for your project. If you want to dive right in, by all means
+
+  ``` javascript
+  > node server.js // 
+  > grunt watch // watches sass files
+  ```
 
 **Does Grunt have your attention?**
 
