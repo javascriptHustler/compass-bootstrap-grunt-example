@@ -3,8 +3,8 @@
 *If you're on the fast track and don't need any help, feel free to clone the repo.*
 
   ```javascript
-  npm install // downloads all packages
-  grunt watch // will automate sass build
+  > npm install // downloads all packages
+  > grunt watch // will automate sass build
   ```
 
 Above you will find a boilerplate to help you establish the basic foundations of a "Nodejs" site. I have provided several technologies such as grunt which will help you quickly perform repetive tasks.
