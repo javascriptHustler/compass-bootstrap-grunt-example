@@ -5,6 +5,11 @@
   ```javascript
   npm install
   ```
+  
+  ```javascript
+  grunt watch
+  ```
+
 
 Above you will find a boilerplate to help you establish the basic foundations of a "Nodejs" site. I have provided several technologies such as grunt which will help you quickly perform repetive tasks.
 
@@ -39,7 +44,3 @@ Grunt is particularly useful when you want to automate tasks like the one above.
 
   });
   ```
-  
-  
-  
-
