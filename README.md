@@ -7,7 +7,20 @@
   > grunt watch // will automate sass build
   ```
 
-Above you will find a boilerplate to help you establish the basic foundations of a "Nodejs" site. I have provided several technologies such as grunt which will help you quickly perform repetive tasks.
+Above you will find a boilerplate to help you establish the basic foundations of a "Nodejs" site. I have provided several technologies such as grunt which will help you quickly perform repetive tasks. Lets get started by cloning the repo.
+
+
+  ``` javascript
+  > git clone git@github.com:yungVitto/compass-bootstrap-grunt-example.git
+  ```
+ 
+Now that you have cloned this repo, it's time to set up your node_modules.
+
+  ``` javascript
+  > npm install // run from project dir
+  ```
+  
+At this point, all dependecies are being downloaded and installed for your project.
 
 **Does Grunt have your attention?**
 
@@ -45,18 +58,6 @@ Grunt is particularly useful when you want to automate tasks like the one above.
 
   });
   ```
-  
-  ``` javascript
-  > git clone git@github.com:yungVitto/compass-bootstrap-grunt-example.git
-  ```
- 
-Now that you have cloned this repo, it's time to set up your node_modules.
-
-  ``` javascript
-  > npm install // run from project dir
-  ```
-  
-At this point, all dependecies are being downloaded and installed for your project.
   
   
   
