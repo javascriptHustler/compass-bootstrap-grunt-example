@@ -27,7 +27,7 @@ At this point, all dependecies are being downloaded and installed for your proje
   > grunt watch // watches sass files
   ```
 
-**Does Grunt have your attention?**
+**Does Grunt have your attention? It should!**
 
 Let's set the scene. You're working on a project and hours of tedious and repetitive work lays before you. For example:
 
