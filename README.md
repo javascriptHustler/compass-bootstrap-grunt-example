@@ -37,6 +37,26 @@ Grunt is particularly useful when you want to automate tasks like the one above.
         tasks: ['compass:dist']
       }
     }
+    
+    grunt.loadNpmTasks('grunt-shell');
+    grunt.loadNpmTasks('grunt-contrib-sass');
+    grunt.loadNpmTasks('grunt-contrib-compass');
+    grunt.loadNpmTasks('grunt-contrib-watch');
 
   });
   ```
+  
+  ``` javascript
+  > git clone git@github.com:yungVitto/compass-bootstrap-grunt-example.git
+  ```
+ 
+Now that you have cloned this repo, it's time to set up your node_modules.
+
+  ``` javascript
+  > npm install // run from project dir
+  ```
+  
+At this point, all dependecies are being downloaded and installed for your project.
+  
+  
+  
